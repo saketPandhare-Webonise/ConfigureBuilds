@@ -1,0 +1,10 @@
+//
+//  Stage.xcconfig
+//  GSDemo
+//
+//  Created by Saket.Webonise Pandhare on 12/12/17.
+//  Copyright © 2017 Saket.Webonise Pandhare. All rights reserved.
+//
+#include "Pods/Target Support Files/Pods-GSDemo/Pods-GSDemo.staging.xcconfig"
+
+BASE_URL = api-staging.gymshim.com/

@@ -1,0 +1,32 @@
+platform :ios, '8.0'
+
+def available_pods
+use_frameworks!
+pod 'Alamofire', '~> 4.4'
+pod 'TTTAttributedLabel'
+end
+
+target 'GSDemo' do
+# Comment this line if you're not using Swift and don't want to use dynamic frameworks
+available_pods
+# Pods for SweatBath
+target 'GSDemoTests' do
+inherit! :search_paths
+available_pods
+# Pods for testing
+end
+
+target 'GSDemoUITests' do
+inherit! :search_paths
+available_pods
+# Pods for testing
+end
+end
+
+post_install do |installer|
+installer.pods_project.targets.each do |target|
+target.build_configurations.each do |config|
+config.build_settings['SWIFT_VERSION'] = '3.0'
+end
+end
+end
