@@ -99,7 +99,7 @@
 		160507FA6CA04294532C287A8D08E311 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		19213D1091A8C96270CB2E702415B900 /* Pods-GSDemoUITests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSDemoUITests.staging.xcconfig"; sourceTree = "<group>"; };
 		19D11EF97C5AEA881AF299B246E96E2C /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		21D3B88FF7C7F97A43A5E573FEE16055 /* TTTAttributedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TTTAttributedLabel.framework; path = TTTAttributedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D3B88FF7C7F97A43A5E573FEE16055 /* TTTAttributedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTTAttributedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E0FAC5BE66876B0B746A83E1CBA894 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		27BDC19E487F8377420A573602263FDF /* TTTAttributedLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTTAttributedLabel.m; path = TTTAttributedLabel/TTTAttributedLabel.m; sourceTree = "<group>"; };
 		2D09C14C5DEE5070B9F460DE6FCD893D /* Pods-GSDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSDemoTests-resources.sh"; sourceTree = "<group>"; };
@@ -113,8 +113,8 @@
 		4468BAA6A6598C845521E71635EFCDD7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4525F78CAA094805E2A6C5C7552A7C32 /* Pods-GSDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSDemoTests-frameworks.sh"; sourceTree = "<group>"; };
 		472C381F338C338DC6F812FAB01CF057 /* Pods-GSDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GSDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		497FFA823A7D906B6D213FD9589D6CB7 /* Pods-GSDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GSDemoUITests.modulemap"; sourceTree = "<group>"; };
-		51AC78888A64506E4CC75D0293C60E7D /* Pods-GSDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GSDemo.modulemap"; sourceTree = "<group>"; };
+		497FFA823A7D906B6D213FD9589D6CB7 /* Pods-GSDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GSDemoUITests.modulemap"; sourceTree = "<group>"; };
+		51AC78888A64506E4CC75D0293C60E7D /* Pods-GSDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GSDemo.modulemap"; sourceTree = "<group>"; };
 		532AFA49045251CE7F2DCC835D3C4602 /* Pods-GSDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GSDemo-dummy.m"; sourceTree = "<group>"; };
 		5A2A15D8EE74D4C48CD7D80F28D8F5C4 /* Pods-GSDemoTests.testing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSDemoTests.testing.xcconfig"; sourceTree = "<group>"; };
 		5ABD12D0E0B6151B295B2CC637D020B6 /* TTTAttributedLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTTAttributedLabel-dummy.m"; sourceTree = "<group>"; };
@@ -127,19 +127,19 @@
 		7527F1D632B87AEA4C8B642D9D1A95E3 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		75724AFC8DB229902C200CFD229B7576 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		7A7725D0EC64917A55BCF44CF057A41F /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		7B3F975FB19288F2E783B488F4E810B0 /* Pods_GSDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GSDemoUITests.framework; path = "Pods-GSDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B3F975FB19288F2E783B488F4E810B0 /* Pods_GSDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B4D9EFDA1A91A1EFC3892A43B6ABC9F /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		7BEA2870C660E3E736F63AAF78A1D4EC /* Pods-GSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		7C63D81AA4A4B158392928001CDF64DD /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		7E4EE262349108144307D042F49DE193 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		80CF8DE35F25301F9D7FA029B69AA351 /* Pods-GSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSDemo.release.xcconfig"; sourceTree = "<group>"; };
-		8135D5A839CF10872369779DC8AFD445 /* Pods-GSDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GSDemoTests.modulemap"; sourceTree = "<group>"; };
+		8135D5A839CF10872369779DC8AFD445 /* Pods-GSDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GSDemoTests.modulemap"; sourceTree = "<group>"; };
 		8177CCA28633E48953E2258BDF587129 /* Pods-GSDemoTests.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSDemoTests.production.xcconfig"; sourceTree = "<group>"; };
 		822A25F2079C074E9BF06B64A494EF21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		826F552C1461D0E222B6581C39F00FA1 /* Pods-GSDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		92FB61C047B1A19EC3D5BF74759460D3 /* Pods-GSDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GSDemoTests-umbrella.h"; sourceTree = "<group>"; };
-		9330E6548B430AF59AD6039A1B59A3E1 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9330E6548B430AF59AD6039A1B59A3E1 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; };
 		95695AA8C52526E294AB7412BC268A43 /* Pods-GSDemo.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSDemo.production.xcconfig"; sourceTree = "<group>"; };
 		98BBEBAFF816654E414232BAF304A0CC /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		9D0D26220E4BB7246A3677357795A38D /* Pods-GSDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GSDemoUITests-umbrella.h"; sourceTree = "<group>"; };
@@ -153,21 +153,21 @@
 		C952C835FC8C7352843E7F19A4EB6EC3 /* Pods-GSDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
 		CA264445E5C493F96D6E2B8DF8BF1DA5 /* Pods-GSDemo.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSDemo.staging.xcconfig"; sourceTree = "<group>"; };
 		CAC4398C9281924B437C6B0670E29B9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CFA36BE0727816373B85E9FF9561D2B1 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA36BE0727816373B85E9FF9561D2B1 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5BED901644E013A7563B7ECFA28920B /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		D7AE7343BA5FCE238B757BCDDA9402DF /* Pods-GSDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GSDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		D95874A55FF414B636CEB8CD956A40D0 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		DAE968E7B97FBB1AA437BC5FF2C75C5F /* TTTAttributedLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTTAttributedLabel.h; path = TTTAttributedLabel/TTTAttributedLabel.h; sourceTree = "<group>"; };
 		E0ADCE12542ABDCD953096BB8755A753 /* Pods-GSDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GSDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E2020155B3A9936A7C59E6BBED33EFC0 /* Pods-GSDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSDemo-resources.sh"; sourceTree = "<group>"; };
-		E380610298E7AFEFD5B7CA08084E4549 /* Pods_GSDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GSDemoTests.framework; path = "Pods-GSDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBDB2C126789788A4FFFB5BA4AB23DC1 /* Pods_GSDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GSDemo.framework; path = "Pods-GSDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E380610298E7AFEFD5B7CA08084E4549 /* Pods_GSDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDB2C126789788A4FFFB5BA4AB23DC1 /* Pods_GSDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB9048F3EE55B01CC29813D87DF66FF /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		ECD3A18DFF6B5402BE1F4B5BA64EB42A /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		ED61FC89C27AAC6A568CF0196FAE6284 /* Pods-GSDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GSDemoTests-dummy.m"; sourceTree = "<group>"; };
 		ED93B6FB4BD85D66D3D128AE2B378119 /* TTTAttributedLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTTAttributedLabel-prefix.pch"; sourceTree = "<group>"; };
 		EE60D31012FA99FC52FFD5276CC7F560 /* Pods-GSDemo.testing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSDemo.testing.xcconfig"; sourceTree = "<group>"; };
-		F535519E35ECA0E895B97C195EBEB0D7 /* TTTAttributedLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TTTAttributedLabel.modulemap; sourceTree = "<group>"; };
+		F535519E35ECA0E895B97C195EBEB0D7 /* TTTAttributedLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TTTAttributedLabel.modulemap; sourceTree = "<group>"; };
 		F59D694A9020F0959A3D1601E40BACC9 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
 		F9E44F8D75805496E757DCEB9AF6FD06 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		F9E5E695DA3614856F7B23104FC52115 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
@@ -358,7 +358,6 @@
 				27BDC19E487F8377420A573602263FDF /* TTTAttributedLabel.m */,
 				DEBD9D5B413AEBF584419E360EED6A2B /* Support Files */,
 			);
-			name = TTTAttributedLabel;
 			path = TTTAttributedLabel;
 			sourceTree = "<group>";
 		};
@@ -398,7 +397,6 @@
 				D5BED901644E013A7563B7ECFA28920B /* Validation.swift */,
 				3BECF9200444F8D10BA826218B75AC60 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
