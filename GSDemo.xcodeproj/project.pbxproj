@@ -63,7 +63,7 @@
 		E00F25A71FDFA57C0094FB02 /* Test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Test.xcconfig; path = Config/Test.xcconfig; sourceTree = "<group>"; };
 		E00F25A91FDFA5A20094FB02 /* Prod.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Prod.xcconfig; path = Config/Prod.xcconfig; sourceTree = "<group>"; };
 		E00F25AA1FDFA5BC0094FB02 /* Stage.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Stage.xcconfig; path = Config/Stage.xcconfig; sourceTree = "<group>"; };
-		E086D0081FDFBF3700CCF311 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+		E086D0081FDFBF3700CCF311 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		E35C381F7D4681023E931D9E /* Pods-GSDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GSDemoTests/Pods-GSDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E6106876E7641FC3BDB51B06 /* Pods-GSDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GSDemoUITests/Pods-GSDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				E00F25A31FDFA0380094FB02 /* PodFile */,
+				E086D0081FDFBF3700CCF311 /* .gitignore */,
 				E00F25741FDF9FBB0094FB02 /* GSDemo */,
 				E00F25891FDF9FBB0094FB02 /* GSDemoTests */,
 				E00F25941FDF9FBB0094FB02 /* GSDemoUITests */,
@@ -145,7 +146,6 @@
 		E00F25741FDF9FBB0094FB02 /* GSDemo */ = {
 			isa = PBXGroup;
 			children = (
-				E086D0081FDFBF3700CCF311 /* .gitignore */,
 				E00F25A51FDFA5440094FB02 /* Config */,
 				E00F25751FDF9FBB0094FB02 /* AppDelegate.swift */,
 				E00F25771FDF9FBB0094FB02 /* ViewController.swift */,
