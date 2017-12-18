@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         getBaseUrl()
-        exampleAPI1()
+        exampleAPI1URLSession()
     }
 
     override func didReceiveMemoryWarning() {
@@ -57,10 +57,16 @@ class ViewController: UIViewController {
     /// By using nsurl session we can keep progress of download of any file fron server for e.g music file 
     /// we can also pause,resume and cancel download
     
-    func exampleAPI1() {
+    func exampleAPI1URLSession() {
         let URL = NSURL(string: "https://itunes.apple.com/lookup?id=909253")!
+        
+        /// Availble form iOS 7 onwards
+        // we cannot assign http method type to URL Request so we use nsmutableurlrequest request
+//        let urlRequest: NSURLRequest = NSURLRequest(url: URL)
+//        urlRequest.httpMethod = "GET"
         let requestURL: NSMutableURLRequest = NSMutableURLRequest(url: URL as URL)
         requestURL.httpMethod = "GET"
+
         
         
         // Convert POST string parameters to data using UTF8 Encoding
@@ -96,6 +102,18 @@ class ViewController: UIViewController {
                 print("Json data has \(String(describing: jsonData))")
             }
         }.resume()
+    }
+    
+    
+    func callAPIByNsurlConnection() {
+        let URL = NSURL(string: "https://itunes.apple.com/lookup?id=909253")!
+        
+        let request = NSURLRequest(url: URL as URL)
+       
+        /// Deprected in ios 9 onwards
+//        NSURLConnection.sendAsynchronousRequest(<#T##request: URLRequest##URLRequest#>, queue: <#T##OperationQueue#>, completionHandler: <#T##(URLResponse?, Data?, Error?) -> Void#>)
+        
+        
     }
 }
 
