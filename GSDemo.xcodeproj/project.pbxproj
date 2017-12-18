@@ -18,7 +18,6 @@
 		E00F25961FDF9FBB0094FB02 /* GSDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00F25951FDF9FBB0094FB02 /* GSDemoUITests.swift */; };
 		E00F25A41FDFA0380094FB02 /* PodFile in Resources */ = {isa = PBXBuildFile; fileRef = E00F25A31FDFA0380094FB02 /* PodFile */; };
 		E02B09721FE139A000C6B922 /* adhocexportoptionlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = E02B09711FE139A000C6B922 /* adhocexportoptionlist.plist */; };
-		E086D0091FDFBF3700CCF311 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E086D0081FDFBF3700CCF311 /* .gitignore */; };
 		FC36BAE9A07F1ECE44E31E12 /* Pods_GSDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3615100D89456F1DEE0E0CE6 /* Pods_GSDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,7 +64,6 @@
 		E00F25A91FDFA5A20094FB02 /* Prod.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Prod.xcconfig; path = Config/Prod.xcconfig; sourceTree = "<group>"; };
 		E00F25AA1FDFA5BC0094FB02 /* Stage.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Stage.xcconfig; path = Config/Stage.xcconfig; sourceTree = "<group>"; };
 		E02B09711FE139A000C6B922 /* adhocexportoptionlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = adhocexportoptionlist.plist; sourceTree = "<group>"; };
-		E086D0081FDFBF3700CCF311 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		E35C381F7D4681023E931D9E /* Pods-GSDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GSDemoTests/Pods-GSDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E6106876E7641FC3BDB51B06 /* Pods-GSDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GSDemoUITests/Pods-GSDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,7 +123,6 @@
 			isa = PBXGroup;
 			children = (
 				E00F25A31FDFA0380094FB02 /* PodFile */,
-				E086D0081FDFBF3700CCF311 /* .gitignore */,
 				E00F25741FDF9FBB0094FB02 /* GSDemo */,
 				E00F25891FDF9FBB0094FB02 /* GSDemoTests */,
 				E00F25941FDF9FBB0094FB02 /* GSDemoUITests */,
@@ -307,7 +304,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E086D0091FDFBF3700CCF311 /* .gitignore in Resources */,
 				E00F25801FDF9FBB0094FB02 /* LaunchScreen.storyboard in Resources */,
 				E00F257D1FDF9FBB0094FB02 /* Assets.xcassets in Resources */,
 				E00F25A41FDFA0380094FB02 /* PodFile in Resources */,
@@ -422,10 +418,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-GSDemo/Pods-GSDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -440,10 +438,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-GSDemoTests/Pods-GSDemoTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -458,10 +458,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-GSDemoUITests/Pods-GSDemoUITests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
