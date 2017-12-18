@@ -1,15 +1,3 @@
-PODS:
-  - Alamofire (4.6.0)
-  - TTTAttributedLabel (2.0.0)
-
-DEPENDENCIES:
-  - Alamofire (~> 4.4)
-  - TTTAttributedLabel
-
-SPEC CHECKSUMS:
-  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
-  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
-
-PODFILE CHECKSUM: 3aa8b6832cef62a75f954c7e8cb7315bccf84cce
+PODFILE CHECKSUM: 60381293137f192cbd83b53c71b17a94181188ef
 
 COCOAPODS: 1.3.1

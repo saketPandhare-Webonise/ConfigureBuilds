@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Alamofire.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-GSDemo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -24,39 +19,8 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>TTTAttributedLabel.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>140231EDA75BDEFA7EE2D599B524DB7E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B14A8956B582EBC21C278F15B7AC7477</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B5A79454F1ED18CB7429FF56FA47C9AA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DD5EF601327F21C9C4849B89B3497E61</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F74498A0E108E6A807F5D8F8CE6120C7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>

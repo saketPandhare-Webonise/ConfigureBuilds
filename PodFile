@@ -2,8 +2,8 @@ platform :ios, '8.0'
 
 def available_pods
 use_frameworks!
-pod 'Alamofire', '~> 4.4'
-pod 'TTTAttributedLabel'
+
+
 end
 
 target 'GSDemo' do
